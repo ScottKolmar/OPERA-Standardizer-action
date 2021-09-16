@@ -1,0 +1,6 @@
+# action.yml
+name: 'OPERA-Standardizer-action'
+description: 'Starts OPERA Standardizer in a Docker container'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
